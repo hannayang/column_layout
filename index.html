@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>
+      Column grid layout example
+    </title>
+  </head>
+<body>
+  <header>
+    <div class="wrapper">
+      <h1>Important News</h1>
+    </div>
+  </header>
+  <nav role="navigation" class="wrapper">
+    <div class="wrapper">
+      <ul class="navlist">
+        <li>HOME</li>
+        <li>WORLD</li>
+        <li>LOCAL</li>
+        <li>SPORTS</li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="wrapper">
+    <section class="subcategory">
+        <div class="row">
+          <header class="col subcategory-header">
+            <h2>Sub-section</h2>
+          </header>
+          <div class="col subcategory-content">
+            <div class="row row-quartet">
+              <div class="col subcategory-featured">Featured story</div>
+              <div class="col">story</div>
+              <div class="col">story</div>
+            </div>
+            <div class="row row-quartet">
+              <div class="col">story</div>
+              <div class="col">story</div>
+              <div class="col">story</div>
+              <div class="col">story</div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="subcategory">
+      <div class="row">
+        <header class="col subcategory-header">
+          <h2>Sub-section</h2>
+        </header>
+        <div class="col subcategory-content">
+          <div class="row row-trio">
+            <div class="col">story</div>
+            <div class="col">story</div>
+            <div class="col">story</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
