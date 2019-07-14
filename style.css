@@ -3,10 +3,15 @@ body {
 }
 
 .wrapper {
-  background-color: lightgray; 
   width: 95%; 
   max-width: 76em; 
   margin: 0 auto; 
+}
+
+ul {
+  list-style: none; 
+  display: flex; 
+  justify-content: space-around; 
 }
 
 .row::after {
@@ -19,6 +24,7 @@ body {
 .col {
   float: left; 
   box-sizing: border-box; 
+  padding: 0 0.6875% 1.375em; 
   min-height: 100px; 
   outline: 1px solid black; 
 }
@@ -43,3 +49,11 @@ body {
   width: 33.3333%
 }
 
+.story {
+  padding: .6875em; 
+  background-color: #eee; 
+}
+
+.story img {
+  width: 100%; 
+}
